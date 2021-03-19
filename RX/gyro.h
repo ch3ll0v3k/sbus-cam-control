@@ -3,6 +3,6 @@
 
 #define GYRO_MIN -25
 #define GYRO_MAX 25
-#define GYRO_COMP_COEF 1 // TODO
+#define GYRO_COMP_COEF 0.8 // TODO
 
 #endif

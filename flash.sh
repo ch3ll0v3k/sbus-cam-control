@@ -17,8 +17,8 @@ BOARD=${3:-"arduino:avr:nano:cpu=atmega328old"}
 echo " Using: sketch: ${SKETCH}, device: ${PORT}"
 
 #  Can only pass one of: --upload, --verify, --get-pref, --install-boards, --version, --install-library
-ACTTION="--upload";
 ACTTION="--verify";
+ACTTION="--upload";
 
 arduino \
 $ACTTION \

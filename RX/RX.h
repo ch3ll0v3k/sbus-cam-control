@@ -5,6 +5,7 @@
 #include <Wire.h>
 #include <MPU6050.h>
 #include <Servo.h>
+#include "SBUS.h"
 
 #define RX_CHANNELS 16
 
@@ -20,13 +21,5 @@
 #define RX_SWITCH_RANGE_2 RX_SWITCH_RANGE /2 // 819
 
 uint16_t channels[RX_CHANNELS];
-
-
-
-
-
-
-
-
 
 #endif

@@ -11,15 +11,15 @@ uint16_t mapChannel( uint16_t ch ){
 }
 
 uint16_t isChannelLow( uint16_t ch ){
-  return mapChannel( ch ) == RX_SWITCH_MIN;
+  return mapChannel( ch ) == 0; // RX_SWITCH_MIN;
 }
 
 uint16_t isChannelMiddle( uint16_t ch ){
-  return mapChannel( ch ) == RX_SWITCH_MIDDLE;
+  return mapChannel( ch ) == 90; // RX_SWITCH_MIDDLE;
 }
 
 uint16_t isChannelHight( uint16_t ch ){
-  return mapChannel( ch ) == RX_SWITCH_MAX;
+  return mapChannel( ch ) == 180; // RX_SWITCH_MAX;
 }
 
 int16_t clampGyro( int16_t val ){
